@@ -1,0 +1,677 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		147F56B91FD797B600E8D47B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 147F56B81FD797B600E8D47B /* AppDelegate.m */; };
+		147F56BC1FD797B600E8D47B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 147F56BB1FD797B600E8D47B /* ViewController.m */; };
+		147F56BF1FD797B600E8D47B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 147F56BD1FD797B600E8D47B /* Main.storyboard */; };
+		147F56C11FD797B600E8D47B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 147F56C01FD797B600E8D47B /* Assets.xcassets */; };
+		147F56C41FD797B600E8D47B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 147F56C21FD797B600E8D47B /* LaunchScreen.storyboard */; };
+		147F56C71FD797B600E8D47B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 147F56C61FD797B600E8D47B /* main.m */; };
+		147F56D11FD797B600E8D47B /* ShortcutToHomeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 147F56D01FD797B600E8D47B /* ShortcutToHomeTests.m */; };
+		147F56DC1FD797B600E8D47B /* ShortcutToHomeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 147F56DB1FD797B600E8D47B /* ShortcutToHomeUITests.m */; };
+		147F56F21FD79EB300E8D47B /* DLAddToDesktopHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 147F56EB1FD7998E00E8D47B /* DLAddToDesktopHandler.m */; };
+		147F56F31FD79EB500E8D47B /* DLBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 147F56ED1FD7998E00E8D47B /* DLBase64.m */; };
+		147F56F41FD79EB900E8D47B /* UIImage+DLDataURIImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 147F56F11FD7998E00E8D47B /* UIImage+DLDataURIImage.m */; };
+		147F56F61FD7B01900E8D47B /* WebHtml.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 147F56EF1FD7998E00E8D47B /* WebHtml.bundle */; };
+		22DAB57131CF19C32C8CEA55 /* libPods-ShortcutToHome.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FC4A5DA8295D0B9EA5611C6 /* libPods-ShortcutToHome.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		147F56CD1FD797B600E8D47B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 147F56AC1FD797B600E8D47B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 147F56B31FD797B600E8D47B;
+			remoteInfo = ShortcutToHome;
+		};
+		147F56D81FD797B600E8D47B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 147F56AC1FD797B600E8D47B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 147F56B31FD797B600E8D47B;
+			remoteInfo = ShortcutToHome;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		086F51197AFFAD51C28C1478 /* Pods-ShortcutToHome.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShortcutToHome.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShortcutToHome/Pods-ShortcutToHome.debug.xcconfig"; sourceTree = "<group>"; };
+		147F56B41FD797B600E8D47B /* ShortcutToHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShortcutToHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		147F56B71FD797B600E8D47B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		147F56B81FD797B600E8D47B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		147F56BA1FD797B600E8D47B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		147F56BB1FD797B600E8D47B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		147F56BE1FD797B600E8D47B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		147F56C01FD797B600E8D47B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		147F56C31FD797B600E8D47B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		147F56C51FD797B600E8D47B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		147F56C61FD797B600E8D47B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		147F56CC1FD797B600E8D47B /* ShortcutToHomeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShortcutToHomeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		147F56D01FD797B600E8D47B /* ShortcutToHomeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShortcutToHomeTests.m; sourceTree = "<group>"; };
+		147F56D21FD797B600E8D47B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		147F56D71FD797B600E8D47B /* ShortcutToHomeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShortcutToHomeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		147F56DB1FD797B600E8D47B /* ShortcutToHomeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShortcutToHomeUITests.m; sourceTree = "<group>"; };
+		147F56DD1FD797B600E8D47B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		147F56EA1FD7998E00E8D47B /* DLAddToDesktopHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DLAddToDesktopHandler.h; sourceTree = "<group>"; };
+		147F56EB1FD7998E00E8D47B /* DLAddToDesktopHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DLAddToDesktopHandler.m; sourceTree = "<group>"; };
+		147F56EC1FD7998E00E8D47B /* DLBase64.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DLBase64.h; sourceTree = "<group>"; };
+		147F56ED1FD7998E00E8D47B /* DLBase64.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DLBase64.m; sourceTree = "<group>"; };
+		147F56EF1FD7998E00E8D47B /* WebHtml.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = WebHtml.bundle; sourceTree = "<group>"; };
+		147F56F01FD7998E00E8D47B /* UIImage+DLDataURIImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+DLDataURIImage.h"; sourceTree = "<group>"; };
+		147F56F11FD7998E00E8D47B /* UIImage+DLDataURIImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+DLDataURIImage.m"; sourceTree = "<group>"; };
+		44B18ED6193EBF07899CBB13 /* Pods-ShortcutToHome.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShortcutToHome.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShortcutToHome/Pods-ShortcutToHome.release.xcconfig"; sourceTree = "<group>"; };
+		4FC4A5DA8295D0B9EA5611C6 /* libPods-ShortcutToHome.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ShortcutToHome.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		147F56B11FD797B600E8D47B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22DAB57131CF19C32C8CEA55 /* libPods-ShortcutToHome.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		147F56C91FD797B600E8D47B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		147F56D41FD797B600E8D47B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D1A7DEB125EA74F528BF7C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4FC4A5DA8295D0B9EA5611C6 /* libPods-ShortcutToHome.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		147F56AB1FD797B600E8D47B = {
+			isa = PBXGroup;
+			children = (
+				147F56B61FD797B600E8D47B /* ShortcutToHome */,
+				147F56CF1FD797B600E8D47B /* ShortcutToHomeTests */,
+				147F56DA1FD797B600E8D47B /* ShortcutToHomeUITests */,
+				147F56B51FD797B600E8D47B /* Products */,
+				9E3B94268FB8CA51FBE6B561 /* Pods */,
+				0D1A7DEB125EA74F528BF7C0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		147F56B51FD797B600E8D47B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				147F56B41FD797B600E8D47B /* ShortcutToHome.app */,
+				147F56CC1FD797B600E8D47B /* ShortcutToHomeTests.xctest */,
+				147F56D71FD797B600E8D47B /* ShortcutToHomeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		147F56B61FD797B600E8D47B /* ShortcutToHome */ = {
+			isa = PBXGroup;
+			children = (
+				147F56E91FD7998E00E8D47B /* DLAddToDesktopLib */,
+				147F56B71FD797B600E8D47B /* AppDelegate.h */,
+				147F56B81FD797B600E8D47B /* AppDelegate.m */,
+				147F56BA1FD797B600E8D47B /* ViewController.h */,
+				147F56BB1FD797B600E8D47B /* ViewController.m */,
+				147F56BD1FD797B600E8D47B /* Main.storyboard */,
+				147F56C01FD797B600E8D47B /* Assets.xcassets */,
+				147F56C21FD797B600E8D47B /* LaunchScreen.storyboard */,
+				147F56C51FD797B600E8D47B /* Info.plist */,
+				147F56C61FD797B600E8D47B /* main.m */,
+			);
+			path = ShortcutToHome;
+			sourceTree = "<group>";
+		};
+		147F56CF1FD797B600E8D47B /* ShortcutToHomeTests */ = {
+			isa = PBXGroup;
+			children = (
+				147F56D01FD797B600E8D47B /* ShortcutToHomeTests.m */,
+				147F56D21FD797B600E8D47B /* Info.plist */,
+			);
+			path = ShortcutToHomeTests;
+			sourceTree = "<group>";
+		};
+		147F56DA1FD797B600E8D47B /* ShortcutToHomeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				147F56DB1FD797B600E8D47B /* ShortcutToHomeUITests.m */,
+				147F56DD1FD797B600E8D47B /* Info.plist */,
+			);
+			path = ShortcutToHomeUITests;
+			sourceTree = "<group>";
+		};
+		147F56E91FD7998E00E8D47B /* DLAddToDesktopLib */ = {
+			isa = PBXGroup;
+			children = (
+				147F56EA1FD7998E00E8D47B /* DLAddToDesktopHandler.h */,
+				147F56EB1FD7998E00E8D47B /* DLAddToDesktopHandler.m */,
+				147F56EC1FD7998E00E8D47B /* DLBase64.h */,
+				147F56ED1FD7998E00E8D47B /* DLBase64.m */,
+				147F56EE1FD7998E00E8D47B /* HTMLTemplet */,
+				147F56F01FD7998E00E8D47B /* UIImage+DLDataURIImage.h */,
+				147F56F11FD7998E00E8D47B /* UIImage+DLDataURIImage.m */,
+			);
+			path = DLAddToDesktopLib;
+			sourceTree = "<group>";
+		};
+		147F56EE1FD7998E00E8D47B /* HTMLTemplet */ = {
+			isa = PBXGroup;
+			children = (
+				147F56EF1FD7998E00E8D47B /* WebHtml.bundle */,
+			);
+			path = HTMLTemplet;
+			sourceTree = "<group>";
+		};
+		9E3B94268FB8CA51FBE6B561 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				086F51197AFFAD51C28C1478 /* Pods-ShortcutToHome.debug.xcconfig */,
+				44B18ED6193EBF07899CBB13 /* Pods-ShortcutToHome.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		147F56B31FD797B600E8D47B /* ShortcutToHome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 147F56E01FD797B600E8D47B /* Build configuration list for PBXNativeTarget "ShortcutToHome" */;
+			buildPhases = (
+				DE6C5C7FC54F5B994F3CCBAC /* [CP] Check Pods Manifest.lock */,
+				147F56B01FD797B600E8D47B /* Sources */,
+				147F56B11FD797B600E8D47B /* Frameworks */,
+				147F56B21FD797B600E8D47B /* Resources */,
+				AB558E28FAE5249890C9684A /* [CP] Embed Pods Frameworks */,
+				EC8342E42FEB77B6861403EB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShortcutToHome;
+			productName = ShortcutToHome;
+			productReference = 147F56B41FD797B600E8D47B /* ShortcutToHome.app */;
+			productType = "com.apple.product-type.application";
+		};
+		147F56CB1FD797B600E8D47B /* ShortcutToHomeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 147F56E31FD797B600E8D47B /* Build configuration list for PBXNativeTarget "ShortcutToHomeTests" */;
+			buildPhases = (
+				147F56C81FD797B600E8D47B /* Sources */,
+				147F56C91FD797B600E8D47B /* Frameworks */,
+				147F56CA1FD797B600E8D47B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				147F56CE1FD797B600E8D47B /* PBXTargetDependency */,
+			);
+			name = ShortcutToHomeTests;
+			productName = ShortcutToHomeTests;
+			productReference = 147F56CC1FD797B600E8D47B /* ShortcutToHomeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		147F56D61FD797B600E8D47B /* ShortcutToHomeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 147F56E61FD797B600E8D47B /* Build configuration list for PBXNativeTarget "ShortcutToHomeUITests" */;
+			buildPhases = (
+				147F56D31FD797B600E8D47B /* Sources */,
+				147F56D41FD797B600E8D47B /* Frameworks */,
+				147F56D51FD797B600E8D47B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				147F56D91FD797B600E8D47B /* PBXTargetDependency */,
+			);
+			name = ShortcutToHomeUITests;
+			productName = ShortcutToHomeUITests;
+			productReference = 147F56D71FD797B600E8D47B /* ShortcutToHomeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		147F56AC1FD797B600E8D47B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = mikey;
+				TargetAttributes = {
+					147F56B31FD797B600E8D47B = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					147F56CB1FD797B600E8D47B = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 147F56B31FD797B600E8D47B;
+					};
+					147F56D61FD797B600E8D47B = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 147F56B31FD797B600E8D47B;
+					};
+				};
+			};
+			buildConfigurationList = 147F56AF1FD797B600E8D47B /* Build configuration list for PBXProject "ShortcutToHome" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 147F56AB1FD797B600E8D47B;
+			productRefGroup = 147F56B51FD797B600E8D47B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				147F56B31FD797B600E8D47B /* ShortcutToHome */,
+				147F56CB1FD797B600E8D47B /* ShortcutToHomeTests */,
+				147F56D61FD797B600E8D47B /* ShortcutToHomeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		147F56B21FD797B600E8D47B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				147F56C41FD797B600E8D47B /* LaunchScreen.storyboard in Resources */,
+				147F56C11FD797B600E8D47B /* Assets.xcassets in Resources */,
+				147F56BF1FD797B600E8D47B /* Main.storyboard in Resources */,
+				147F56F61FD7B01900E8D47B /* WebHtml.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		147F56CA1FD797B600E8D47B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		147F56D51FD797B600E8D47B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AB558E28FAE5249890C9684A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShortcutToHome/Pods-ShortcutToHome-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE6C5C7FC54F5B994F3CCBAC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ShortcutToHome-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC8342E42FEB77B6861403EB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShortcutToHome/Pods-ShortcutToHome-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		147F56B01FD797B600E8D47B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				147F56F41FD79EB900E8D47B /* UIImage+DLDataURIImage.m in Sources */,
+				147F56F31FD79EB500E8D47B /* DLBase64.m in Sources */,
+				147F56F21FD79EB300E8D47B /* DLAddToDesktopHandler.m in Sources */,
+				147F56BC1FD797B600E8D47B /* ViewController.m in Sources */,
+				147F56C71FD797B600E8D47B /* main.m in Sources */,
+				147F56B91FD797B600E8D47B /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		147F56C81FD797B600E8D47B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				147F56D11FD797B600E8D47B /* ShortcutToHomeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		147F56D31FD797B600E8D47B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				147F56DC1FD797B600E8D47B /* ShortcutToHomeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		147F56CE1FD797B600E8D47B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 147F56B31FD797B600E8D47B /* ShortcutToHome */;
+			targetProxy = 147F56CD1FD797B600E8D47B /* PBXContainerItemProxy */;
+		};
+		147F56D91FD797B600E8D47B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 147F56B31FD797B600E8D47B /* ShortcutToHome */;
+			targetProxy = 147F56D81FD797B600E8D47B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		147F56BD1FD797B600E8D47B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				147F56BE1FD797B600E8D47B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		147F56C21FD797B600E8D47B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				147F56C31FD797B600E8D47B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		147F56DE1FD797B600E8D47B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		147F56DF1FD797B600E8D47B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		147F56E11FD797B600E8D47B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 086F51197AFFAD51C28C1478 /* Pods-ShortcutToHome.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EJ429UWLN6;
+				INFOPLIST_FILE = ShortcutToHome/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mikey.ShortcutToHome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		147F56E21FD797B600E8D47B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44B18ED6193EBF07899CBB13 /* Pods-ShortcutToHome.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EJ429UWLN6;
+				INFOPLIST_FILE = ShortcutToHome/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mikey.ShortcutToHome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		147F56E41FD797B600E8D47B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EJ429UWLN6;
+				INFOPLIST_FILE = ShortcutToHomeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mikey.ShortcutToHomeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShortcutToHome.app/ShortcutToHome";
+			};
+			name = Debug;
+		};
+		147F56E51FD797B600E8D47B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EJ429UWLN6;
+				INFOPLIST_FILE = ShortcutToHomeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mikey.ShortcutToHomeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShortcutToHome.app/ShortcutToHome";
+			};
+			name = Release;
+		};
+		147F56E71FD797B600E8D47B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EJ429UWLN6;
+				INFOPLIST_FILE = ShortcutToHomeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mikey.ShortcutToHomeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ShortcutToHome;
+			};
+			name = Debug;
+		};
+		147F56E81FD797B600E8D47B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EJ429UWLN6;
+				INFOPLIST_FILE = ShortcutToHomeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mikey.ShortcutToHomeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ShortcutToHome;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		147F56AF1FD797B600E8D47B /* Build configuration list for PBXProject "ShortcutToHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				147F56DE1FD797B600E8D47B /* Debug */,
+				147F56DF1FD797B600E8D47B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		147F56E01FD797B600E8D47B /* Build configuration list for PBXNativeTarget "ShortcutToHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				147F56E11FD797B600E8D47B /* Debug */,
+				147F56E21FD797B600E8D47B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		147F56E31FD797B600E8D47B /* Build configuration list for PBXNativeTarget "ShortcutToHomeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				147F56E41FD797B600E8D47B /* Debug */,
+				147F56E51FD797B600E8D47B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		147F56E61FD797B600E8D47B /* Build configuration list for PBXNativeTarget "ShortcutToHomeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				147F56E71FD797B600E8D47B /* Debug */,
+				147F56E81FD797B600E8D47B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 147F56AC1FD797B600E8D47B /* Project object */;
+}

@@ -1,0 +1,26 @@
+PODS:
+  - CocoaAsyncSocket (7.6.1)
+  - CocoaHTTPServer (2.3):
+    - CocoaAsyncSocket
+    - CocoaLumberjack
+  - CocoaLumberjack (3.3.0):
+    - CocoaLumberjack/Default (= 3.3.0)
+    - CocoaLumberjack/Extensions (= 3.3.0)
+  - CocoaLumberjack/Default (3.3.0)
+  - CocoaLumberjack/Extensions (3.3.0):
+    - CocoaLumberjack/Default
+  - GTMBase64 (1.0.0)
+
+DEPENDENCIES:
+  - CocoaHTTPServer
+  - GTMBase64
+
+SPEC CHECKSUMS:
+  CocoaAsyncSocket: 7eadd3f59e1a6c84e2aefc93e9ff7b55156fe174
+  CocoaHTTPServer: 5624681fc3473d43b18202f635f9b3abb013b530
+  CocoaLumberjack: 3c8c74683302f9012bb168e1c4b7ae3c0b558431
+  GTMBase64: 0da7372e95f5171f3f652db38cde6716f8eb5e24
+
+PODFILE CHECKSUM: fd6df66bfdbc66f28da875baff996b2c661f6ad9
+
+COCOAPODS: 1.4.0.beta.2
